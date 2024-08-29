@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senak Cursos</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@
+400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppin
+s:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Tipos de Cursos</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Eletricista</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programador</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Moda</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Economia</a>
+        </li>
+      </ul>
+      <img src="img/senaklogo.jpeg" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Senak</b>Cursos</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Eletricista</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programador</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Economia</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Moda</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Inglês</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Meus Cursos</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__fiagem">
+        <p class="container__texto">CARRINHO</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__fiagem">
+        <p class="container__texto">MEUS CURSOS</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe o que quer fazer?</h2>
+    <p class="banner__texto">Encontre em nossos cursos o que precisa para sua carreira!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Oque você quer aprender hoje?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo"> CURSOS MAIS REQUISITADOS </h2>
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/ECONO.jpeg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="img/ELETRICO.jpeg"
+              alt="Livro sobre liderança em design design da alura books"></div>
+          <div class="swiper-slide"><img src="img/INGLIS.jpeg" alt="Livro sobre javascript assertivo da alura books">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/PROGRAMS.jpeg" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/ORATORIA.jpeg" alt="Livro sobre portugol" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">PACOTE DO MÊS</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/ELETRICO.jpeg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="img/TEXTO_OFERTA-removebg-preview.png" alt="Livro sobre liderança em design da alura books">
+          </div>
+          <div class="swiper-slide"><img src="img/INGLIS.jpeg" alt="Livro sobre javascript assertivo da alurabooks">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+          <!-- 1º coluna -->
+          <div class="descrição">
+            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+            <h3 class="descrição__titulo">AVALIAÇÕES</h3>
+            <h2 class="descrição__titulo-livro">Bruno Esmael</h2>
+            <p class="descrição__texto">"Fiz o curso de elétrica na Senak Cursos e fiquei muito satisfeito. Os professores são excelentes, sempre dispostos a ajudar e tirar dúvidas. O conteúdo é bem explicado. Senti que saí do curso preparado para aplicar o que aprendi no mercado de trabalho. Recomendo para quem quer começar na área de elétrica! E também consegui fazer gato aqui em casa!"
+            
+            </p>
+          </div>
+          <img src="img/brunocerto.jpeg" class="brunocerto">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TODOS OS CURSOS</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">MODA</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">PROGRAMAÇÃO</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">ELÉTRICA</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">ECONOMIA</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">ORATÓRIA</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">INGLÊS</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações de cursos, novos cursos, promoções, pacotes e outros.
+      </p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">SENAK CURSOS</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Contato: 4002-8922</li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Sede: Rua Bento, n°26, SP</li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Todos os Direitos Reservados.</li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
